@@ -17,7 +17,7 @@ class Kernel extends HttpKernel
         \Illuminate\Session\Middleware\StartSession::class,
         \App\Http\Middleware\UserAuth::class,
         \App\Http\Middleware\TrustProxies::class,
-        // \Fruitcake\Cors\HandleCors::class,
+     
         \App\Http\Middleware\PreventRequestsDuringMaintenance::class,
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
         \App\Http\Middleware\TrimStrings::class,
