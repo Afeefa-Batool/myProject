@@ -8,6 +8,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&family=Sansita+Swashed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     {{ View::make( 'header')}}
@@ -26,10 +30,142 @@
 
 </body>
 <style>
-    /* .custom-login{
-        height: 500px;
-        padding-top: 100px;
-    } */
+  .banner1{
+    width:100%;
+    height: 100vh;
+   /* background-image: url('pics/banner.jpg');
+    background-size: cover;*/
+    background-image: url('images/u.png');
+    background-size: cover;
+    background-position: center;
+}
+.banner2{
+    width:100%;
+    height: 100vh;
+ 
+    background-image:url('images/Untitled design.png');
+    background-size: cover;
+    background-position: center;
+}
+.banner3{
+    width:100%;
+    height: 100vh;
+ 
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(33,64,65,0.7)),url('https://images.squarespace-cdn.com/content/v1/55d7b33ee4b0e34ae6046129/1568311488913-G21930JZ9IMYSZESFM1O/White_Cherrie-Gold_Bokeh-Overlay-Cover.jpg?format=1000w');
+    background-size: cover;
+    background-position: center;
+}
+.banner4{
+    width:100%;
+    height: 100vh;
+ 
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(33,64,65,0.7)),url('https://images.squarespace-cdn.com/content/v1/55d7b33ee4b0e34ae6046129/1568311488913-G21930JZ9IMYSZESFM1O/White_Cherrie-Gold_Bokeh-Overlay-Cover.jpg?format=1000w');
+    background-size: cover;
+    background-position: center;
+}
+.banner5{
+    width:100%;
+    height: 100vh;
+ 
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(33,64,65,0.7)),url('https://images.squarespace-cdn.com/content/v1/55d7b33ee4b0e34ae6046129/1568311488913-G21930JZ9IMYSZESFM1O/White_Cherrie-Gold_Bokeh-Overlay-Cover.jpg?format=1000w');
+    background-size: cover;
+    background-position: center;
+}
+#hed{
+  font-family: 'Poppins', sans-serif;
+font-family: 'Sansita Swashed', cursive;
+font-size: 50px
+}
+/* .....footer..... */
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:#282d32;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  text-align:center;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
        
 </style>
 
