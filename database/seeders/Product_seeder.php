@@ -15,6 +15,7 @@ class Product_seeder extends Seeder
      * @return void
      */
     public function run()
+    // php artisan db:seed --class=Product_seeder
     {
         DB::table('products')->insert([
             [
@@ -56,7 +57,15 @@ class Product_seeder extends Seeder
                 'description'=>"Pink, aqua, peridot, coffee, champagne and purple colored zircons alongwith clear zircons.",
                
                 'gallery'=>"https://cdn.shopify.com/s/files/1/0510/2374/1127/products/BT-133-A_grande.jpg?v=1619183156",
-               ]
+            ],
+            [
+                'name'=>'Pearl Globand ',
+                'price'=> "22,500",
+                'category'=>"necklace",
+                'description'=>" champagne and purple colored zircons alongwith clear zircons.",
+               
+                'gallery'=>"images/32.png",
+            ]
             ]);
     }
 }

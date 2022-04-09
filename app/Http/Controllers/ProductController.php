@@ -7,9 +7,9 @@ use App\Models\Product;
 class ProductController extends Controller
 {
     //
-    function index(){
-        // return "welcome to product page";
-        // return Product::all();
-        return view('product');
+   function index()
+    {
+       $data= Product::all();
+       return view('product',['products'=>$data]);
     }
 }

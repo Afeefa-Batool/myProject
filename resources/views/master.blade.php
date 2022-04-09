@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&family=Sansita+Swashed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
@@ -30,11 +29,10 @@
 
 </body>
 <style>
+  /* .....carasoul slider....... */
   .banner1{
     width:100%;
     height: 100vh;
-   /* background-image: url('pics/banner.jpg');
-    background-size: cover;*/
     background-image: url('images/u.png');
     background-size: cover;
     background-position: center;
@@ -71,10 +69,12 @@
     background-size: cover;
     background-position: center;
 }
-#hed{
-  font-family: 'Poppins', sans-serif;
-font-family: 'Sansita Swashed', cursive;
-font-size: 50px
+
+/* .....products page..... */
+.text{
+  overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 /* .....footer..... */
 .footer-dark {
