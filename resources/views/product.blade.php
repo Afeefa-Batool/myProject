@@ -62,6 +62,8 @@
       {{-- ......end fetchig products......  --}}
       <h1 class="text-center mt-4 m-5">Trending Products</h1>
      <div class="container">
+      {{-- <div class="container-fluid text-center"> --}}
+
       <div class="row">
         @foreach ($products as $item)
         <div class="col-lg-4 col-md-6 col-sm-12 p-2 ">
