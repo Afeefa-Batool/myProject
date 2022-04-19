@@ -83,7 +83,13 @@
 .detail-img{
   height: 422px !important;
     width: 87%;
-    border-radius: 36px;
+    border-radius: 9px;
+}
+.jumbotron{
+  background-color: #D0E7F7;
+}
+.search-box{
+  width: 400px !important;
 }
 /* .....products page..... */
 .text{

@@ -16,8 +16,8 @@
             <li class="nav-item">
               <a class="nav-link navbar-brand" href="#">Orders</a>
             </li>
-            <form class="form-inline my-2 my-lg-0" >
-                <input class="form-control mr-sm-2" type="search" placeholder="Search">
+            <form class="form-inline my-2 my-lg-0" action="/search">
+                <input name="query" class="form-control mr-sm-2 search-box" type="search" placeholder="Search">
                 <button class="btn btn-secondary my-2 my-sm-0" type="submit" >Search</button>
               </form>
              
