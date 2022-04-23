@@ -73,7 +73,11 @@
               <div class="card-body">
                 <h5 class="card-title">{{$item['name']}}</h5>
                 <p class="card-text text">{{$item['description']}}</p>
-                <a href="detail/{{$item['id']}}" class="btn btn-secondary">Add to Cart</a>
+                <div class="row">
+                  <a href="detail/{{$item['id']}}" class="btn btn-secondary">Add to Cart</a>
+                  <p class="price mt-1">{{$item['price']}}</p>
+
+                </div>
               </div>
             </div>
           </div>
