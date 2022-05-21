@@ -2,8 +2,8 @@
 @section('content')
 
 
-<div class="jumbotron container mt-3">
-  <div class="custom-login" >
+<div class="jumbotron container mt-3 custom-login">
+
     
     <div class="row">
         <div class="col-lg-7">
@@ -31,7 +31,7 @@
     </div>
 
 
-</div>
+
 </div>
 
 @endsection

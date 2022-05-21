@@ -1,7 +1,7 @@
 @extends('master')
 @section('content')
 
-<div class="container">
+<div class="container detail-page">
     <div class="jumbotron mt-3">
         <div class="row">
 

@@ -101,6 +101,17 @@
 .price{
   margin-left: 146px;
 }
+.custom-product{
+  margin-top: 110px !important;
+}
+.detail-page{
+  margin-top: 110px !important;
+
+}
+.custom-login{
+  margin-top: 110px !important;
+
+}
 /* .....footer..... */
 .footer-dark {
   padding:50px 0;
