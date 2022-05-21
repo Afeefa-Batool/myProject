@@ -16,13 +16,15 @@
                 <p class="display-5 ">Description : {{$product['description']}}</p>
                 <br><br>
                 <form action="/add_to_cart" method="POST">
-                <input type="hidden" name="product_id" value="{{$product['id']}}">
-                @csrf
-                <div class="row">
-                    <button class="btn btn-success ml-3">Add to Cart</button>
+                    @csrf
+                <input type="hidden" name="product_id" value={{$product['id']}}>
+                <button class="btn btn-success ml-3">Add to Cart</button>
                 </form>
                 <br><br>
-                <button class="btn btn-primary ml-5" >Buy Now</button>
+                <div class="row">
+                    <button class="btn btn-primary ml-5" >Buy Now</button>
+
+                </div>
                 <br><br>
                 </div>
                    

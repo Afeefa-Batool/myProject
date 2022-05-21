@@ -1,3 +1,12 @@
+
+<?php 
+use App\Http\COntrollers\ProductController;
+$total=0;
+if(Session::has('user'))
+{
+  $total=ProductController::cartItem();
+}
+?>
 <div class="container-fluid mt-2 ">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark " style="background-color: #0e0f0f !important;height:100px">
         <a class="navbar-brand" href="#">
@@ -21,13 +30,29 @@
                 <button class="btn btn-secondary my-2 my-sm-0" type="submit" >Search</button>
               </form>
              
-          </ul>
+          {{-- </ul>
           <ul class="navbar-nav  mt-2 mt-lg-0 ml-5">
             <li class="nav-item ">
 <button class="btn btn-secondary ">chatify</button>            </li>
             <li class="nav-item ">
                 <a class="nav-link navbar-brand " href="#">Add to Cart </a>
               </li>
+          </ul> --}}
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/cartlist">Cart Item ({{$total}})</a></li>
+            @if(Session::has('user'))
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#"> {{Session::get('user')['name']}}
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a  href="/logout">Logout</a></li>
+              </ul>
+            </li>
+            @else
+            <li><a href="/login">Login</a></li>
+            <li><a href="/register">Register</a></li>
+  
+            @endif
           </ul>
         </div>
       </nav>
