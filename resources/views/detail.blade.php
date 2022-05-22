@@ -2,6 +2,8 @@
 @section('content')
 
 <div class="container detail-page">
+    <h2 class="text-center display-4"><b>Detail Page</b></h2>
+
     <div class="jumbotron mt-3">
         <div class="row">
 

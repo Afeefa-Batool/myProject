@@ -1,32 +1,117 @@
 <div class="container-fluid mt-3">
-  <div class="footer-dark">
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-3 item">
-                    <h3>Services</h3>
-                    <ul>
-                        <li><a href="#">Web design</a></li>
-                        <li><a href="#">Development</a></li>
-                        <li><a href="#">Hosting</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-md-3 item">
-                    <h3>About</h3>
-                    <ul>
-                        <li><a href="#">Company</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Careers</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-6 item text">
-                    <h3>Company Name</h3>
-                    <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
-                </div>
-                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
-            </div>
-            <p class="copyright">Company Name © 2018</p>
+  <div class=" jumbotron page-footer">
+  <!-- Footer -->
+<footer class=" font-small mdb-color lighten-3 pt-4 footer-dark">
+
+    <!-- Footer Elements -->
+    <div class="container">
+  
+      <!--Grid row-->
+      <div class="row">
+  
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-12 mb-4">
+  
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" class="img-fluid"
+              alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+  
         </div>
-    </footer>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4">
+  
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(78).webp" class="img-fluid"
+              alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+  
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4">
+  
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(79).webp" class="img-fluid"
+              alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+  
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-12 mb-4">
+  
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(81).webp" class="img-fluid"
+              alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+  
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4">
+  
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(82).webp" class="img-fluid"
+              alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+  
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4">
+  
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(84).webp" class="img-fluid"
+              alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+  
+        </div>
+        <!--Grid column-->
+  
+      </div>
+      <!--Grid row-->
+  
+    </div>
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 text-light">© 2020 Copyright:
+    
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
 </div>
 </div>
