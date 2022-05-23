@@ -26,7 +26,7 @@
           </tbody>
         </table>
 
-        <form method="POST" action="orderplace">
+        <form method="POST" action="/orderplace">
           @csrf
           <div class="form-group">
             <textarea placeholder="enter yoyr address"  name="address" class="form-control" > </textarea>
