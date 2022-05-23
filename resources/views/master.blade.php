@@ -81,10 +81,13 @@
     background-size: cover;
     background-position: center;
 }
-.detail-img{
-  height: 422px !important;
-    width: 87%;
-    border-radius: 9px;
+.cart-img{
+  height: 186px !important;
+    width: 50%;
+    border-radius: 8px;
+}
+.cart-text{
+  margin-top: 90px;
 }
 .jumbotron{
   background-color: #D0E7F7;
