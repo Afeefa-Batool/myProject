@@ -24,7 +24,7 @@ if(Session::has('user'))
               <a class="nav-link navbar-brand" href="#">Home </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navbar-brand" href="#">Orders</a>
+              <a class="nav-link navbar-brand" href="/myorder">Orders</a>
             </li>
             <form class="form-inline my-2 my-lg-0" action="/search">
                 <input name="query" class="form-control mr-sm-2 search-box" type="search" placeholder="Search">
