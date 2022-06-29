@@ -98,6 +98,15 @@
 .description{
   font-size: 20px;
 }
+.order-list{
+  margin-top: 100px;
+}
+.order-img{
+  height: 209px !important;
+    width: 30%;
+    border-radius: 8px;
+    
+}
 /* .....products page..... */
 .text{
   overflow: hidden;
